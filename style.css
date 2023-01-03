@@ -1,0 +1,40 @@
+/*
+    Colors:
+    light grey: #D3D3D3;
+    white: #FFFFFF;
+    black: #000000;
+*/
+
+body {
+    background-color: #D3D3D3;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 900px;
+    margin: auto;
+    border: 1px solid #000000;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+}
+
+.sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #FF2800;
+    width: 50px;
+    height: 25px;
+
+    text-align: center;
+}
